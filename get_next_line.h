@@ -6,10 +6,14 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/17 12:45:26 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/28 18:00:42 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/04 23:57:11 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define BUFF_SIZE 100
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
+#define BUFF_SIZE 125
 int		get_next_line(const int fd, char **line);
+
+#endif
